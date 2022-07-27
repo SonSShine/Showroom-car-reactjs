@@ -1,0 +1,20 @@
+.banner-text {
+    /* background: url('https://i.pinimg.com/564x/6f/4e/87/6f4e87c57bad8495f4dd2ae9d5e24277.jpg'); */
+    position: relative;
+    top: 45px;
+    padding: 10px 0 10px;
+    background-color: rgba(255, 255, 255, 0.6);
+  }
+  .phanHoi {
+    background-color: rgb(225, 241, 255);
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .phanHoi1 {
+    width: 100%;
+    height: 1000px;
+    /* background-color: rgb(225, 241, 255); */
+    background-image: url('https://tophinhanhdep.com/wp-content/uploads/2021/03/anh-hot-girl-xinh-dep-nhat.jpg');
+  }
+  

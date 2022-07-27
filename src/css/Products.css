@@ -1,0 +1,152 @@
+ul {
+  display: flex;
+  list-style: none;
+  position: absolute;
+  top: 15%;
+  left: 0%;
+  border: unset;
+}
+
+li .fa-solid {
+  position: absolute;
+  top: 17px;
+  left: 9rem;
+}
+
+li a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+li a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+ul .list-group-item {
+  border: none;
+  background-color: unset;
+}
+
+.Tieude{
+  margin-top: 2%;
+}
+
+.banner-img {
+  width: 100%;
+  position: absolute;
+  top: 15%;
+  left: 0px;
+  z-index: -1;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+.title {
+  position: relative;
+  top: 42px;
+}
+
+.banner-text {
+  position: relative;
+  top: -174px;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.card {
+  width: 100%;
+  float: left;
+  text-align: center;
+  margin: 10px;
+  border-radius: 30px;
+}
+
+.picture {
+  aspect-ratio: 4/3;
+}
+
+.card:hover::after {
+  visibility: visible;
+  opacity: 1;
+}
+
+.card::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.3);
+  opacity: 1;
+  visibility: hidden;
+  transition: all 300ms ease-in-out;
+}
+
+a {
+  text-decoration: none;
+}
+
+.name {
+  color: black;
+  font-size: 20px;
+}
+
+.card:hover a {
+  text-decoration: underline;
+  color: red;
+}
+
+.card:hover .name {
+  color: red;
+  transform: scale(1.2);
+  transition: transform 0.5s ease-out;
+}
+
+
+.category {
+  padding: 0px 0px 50px 0;
+}
+
+.category a {
+  color: white;
+  margin-right: 100px;
+  position: relative;
+  top: -46px;
+  left: 230px;
+  font-size: 24px;
+}
+
+.category a:hover {
+  color: red;
+}
+
+.category a:active {
+  color: blue;
+  background-color: white;
+}
+
+.listSanpham {
+  margin-top: 25%;
+}
+
+.containerProducts {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.menu li {
+  margin: 10px 70px;
+  font-size: 20px;
+
+}
+
+.menu li a {
+  color: white;
+}
+
+.search {
+  margin-top: -10%;
+}

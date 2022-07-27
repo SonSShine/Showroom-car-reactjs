@@ -1,0 +1,29 @@
+.search {
+    list-style: none;
+}
+
+.nav-item {
+    list-style: none;
+}
+
+#menu {
+    padding-left: 15%;
+    top: 35%;
+    left: 5%;
+}
+
+.navbar-brand {
+    margin-left: 5%;
+    width: 10%;
+    padding: 1%;
+}
+
+.menu-item a {
+    color: white;
+}
+
+.search {
+    position: absolute;
+    right: 5%;
+    top: 35%
+}

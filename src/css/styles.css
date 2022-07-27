@@ -1,0 +1,172 @@
+body {
+  background-color: rgb(255, 255, 255);
+}
+.myCarousel {
+  position: absolute;
+  right: 15%;
+  bottom: 17.25rem;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  color: #fff;
+  text-align: left;
+  top: 30%;
+  left: 20%;
+}
+h1 {
+  font-size: 58px;
+  line-height: 68px;
+  font-weight: bold;
+}
+.text1 {
+  float: left;
+  text-align: left;
+  margin-left: 20px;
+  margin-top: 20px;
+  color: blue;
+}
+.text2 {
+  float: left;
+  text-align: left;
+  margin-left: 20px;
+  margin-top: 20px;
+  color: #fff;
+}
+.text3 {
+  float: left;
+  text-align: left;
+  margin-left: 20px;
+  margin-top: 20px;
+  color: black;
+}
+.box1 {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  background-color: rgb(240, 236, 230);
+}
+.box2 {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  background-color: rgb(75, 105, 236);
+}
+.box3 {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  background-color: rgb(245, 162, 39);
+}
+.box4 {
+  margin-top: 100px;
+  background-color: rgb(240, 236, 230);
+  margin-bottom: 100px;
+}
+
+.img-hover-zoom {
+  height: 330px;
+  overflow: hidden;
+  padding: 0 0px 0 0;
+}
+
+.img-hover-zoom img {
+  transition: transform 0.5s ease-out;
+}
+.img-hover-zoom:hover img {
+  transform: scale(1.2);
+}
+.tieude {
+  padding: 50px;
+  margin-bottom: 200px;
+}
+.textbox0 {
+  background-color: rgb(205, 223, 243);
+  padding: 100px;
+  background: url(https://hyundai.thanhcong.vn/images/common/cloud.png);
+}
+.textbox1 {
+  text-align: left;
+}
+.textbox2 {
+  text-align: right;
+}
+.para {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.para1 {
+  font-style: italic;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: medium;
+}
+.btn-12 {
+  position: relative;
+  right: 20px;
+  bottom: 20px;
+  border: none;
+  box-shadow: none;
+  width: 130px;
+  height: 40px;
+  line-height: 42px;
+  -webkit-perspective: 230px;
+  perspective: 230px;
+}
+.btn-12 span {
+  background: rgb(19, 167, 216);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 172, 238, 1) 0%,
+    rgba(2, 126, 251, 1) 100%
+  );
+  display: block;
+  position: absolute;
+  width: 130px;
+  height: 40px;
+  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
+    7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  margin: 0;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.btn-12 span:nth-child(1) {
+  box-shadow: -7px -7px 20px 0px #fff9, -4px -4px 5px 0px #fff9,
+    7px 7px 20px 0px #0002, 4px 4px 5px 0px #0001;
+  -webkit-transform: rotateX(90deg);
+  -moz-transform: rotateX(90deg);
+  transform: rotateX(90deg);
+  -webkit-transform-origin: 50% 50% -20px;
+  -moz-transform-origin: 50% 50% -20px;
+  transform-origin: 50% 50% -20px;
+}
+.btn-12 span:nth-child(2) {
+  -webkit-transform: rotateX(0deg);
+  -moz-transform: rotateX(0deg);
+  transform: rotateX(0deg);
+  -webkit-transform-origin: 50% 50% -20px;
+  -moz-transform-origin: 50% 50% -20px;
+  transform-origin: 50% 50% -20px;
+}
+.btn-12:hover span:nth-child(1) {
+  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
+    7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  -webkit-transform: rotateX(0deg);
+  -moz-transform: rotateX(0deg);
+  transform: rotateX(0deg);
+}
+.btn-12:hover span:nth-child(2) {
+  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
+    7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  color: transparent;
+  -webkit-transform: rotateX(-90deg);
+  -moz-transform: rotateX(-90deg);
+  transform: rotateX(-90deg);
+}
+#serviceword {
+  color: #fff;
+}
+/* #serviceword1 {
+  text-decoration: none;
+
+} */

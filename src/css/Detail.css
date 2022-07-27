@@ -1,0 +1,16 @@
+.table-menu {
+    background-color: rgba(12, 4, 129, 0.9);
+}
+
+.table-menu th a {
+    color: white;
+    font-size: 20px;
+}
+
+img {
+    width: 100%;
+}
+
+.Tieude {
+    margin-top: 2%;
+}

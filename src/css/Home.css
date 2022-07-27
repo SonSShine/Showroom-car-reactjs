@@ -1,0 +1,34 @@
+  .col-sm-6 img {
+    padding-left: 50%;
+    aspect-ratio: 4/3;
+  }
+
+  .card {
+    width: 50%;
+  }
+
+  #tintuc {
+    background-color: #0A5470;
+    color: #fff
+  }
+
+  .img-hover-zoom {
+    height: 340px;
+    overflow: hidden;
+    padding: 0 0px 0 0;
+
+  }
+
+  .img-hover-zoom img {
+    transition: transform 0.5s ease-out;
+    width: 590px;
+  }
+
+  .img-hover-zoom:hover img {
+    transform: scale(1.2);
+  }
+
+  .box1 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
